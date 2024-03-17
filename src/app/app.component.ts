@@ -7,7 +7,7 @@ import { HomeComponent } from './modules/portifolio/pages/home/home.component';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, HomeComponent],
-  template: '<router-outlet/>',
+  template: `<router-outlet />`,
 })
 export class AppComponent {
   title = 'Portfólio';
